@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list .list-item{
+  padding: 5px;
+}
+.list .list-item .list-item-info{
+  margin-top: 5px;
+}
+
+.list .list-item .list-item-tools{
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+}
+.list .list-item .list-item-tools span{
+  flex: 1;
+}
+.list .list-item .list-item-tools a{
+  margin: 0 5px;
+  width: 15px;
+}

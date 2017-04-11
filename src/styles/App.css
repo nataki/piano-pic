@@ -22,3 +22,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.main {
+  display: flex;
+}
+.main .sidebar {
+  width: 200px;
+}
+.main .list {
+  flex: 1;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+.sidebar ul li {
+  height: 20px;
+  text-align: left;
+}
